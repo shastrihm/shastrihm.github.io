@@ -7,7 +7,7 @@
 
 <html lang="en">
 <head>
-  <title>John Doe</title>
+  <title>Hrishee Shastri</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -34,9 +34,9 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
 				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="assets/hrisheeshastri_CV.pdf">CV</a></li>
+          <li><a href="#misc">Misc.</a></li> 
 		  </ul>
 		</div>
 	  </div>
@@ -48,54 +48,77 @@
         <div class="row">
 
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
+            <div class="col-md-8">
                 
                 <!-- Main Image -->
                 <img class="img-responsive" src="photo.gif" alt=""><br>
                 
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <div style="margin-top:3%; text-align:justify;"> 
+
+          <h2 id="about">About</h2>
+          <p>I am broadly interested in graphs and networks, including (but not limited to) graph algorithms, graph mining, machine learning on graphs, network science, distributed computing, combinatorial optimization, and applications thereof. </p>
+
+          <p>I graduated from <a href="https://reed.edu">Reed College</a> in 2021 with a B.A. in Mathematics and Computer Science. There, I did my <a href="assets/hrisheesthesis.pdf">senior thesis</a> with Profs. <a href="https://jimfix.github.io/index.html">Jim Fix</a> and <a href="https://people.reed.edu/~mrobinso/">Marcus Robinson</a>, and an independent study with Prof. <a href="http://frachtenberg.org/eitan/">Eitan Frachtenberg</a>.</p> 
+
+          <p>I spent the Summer of 2020 at the <a href="https://www.cs.umd.edu/projects/reucaar/">Combinatorics, Algorithms, and AI for Real Problems REU (REU-CAAR)</a> at the University of Maryland, College Park. There, I worked with <a href="https://samuel-king.org/">Sam King</a> and was advised by Profs. <a href="http://www.cs.umd.edu/~amchilds/">Andrew Childs</a> and <a href="https://jqi.umd.edu/people/alexey-gorshkov">Alexey Gorshkov</a> and Drs. <a href="https://scholar.google.com/citations?user=D5qEcgYAAAAJ&hl=en">Aniruddha Bapat</a> and <a href="https://eddieschoute.github.io/">Eddie Schoute</a>.</p>
+
+
+					<p>Since graduating, I have worked across the startup ecosystem in my hometown of Seattle, developing deep learning models for protein crystallography and developer tools for cloud-based data analytics. Wanting to return to research, I applied for <b> and was awarded an <a href="https://www.nsf.gov/cise/CSGrad4US/">NSF CISE Graduate Fellowship</a> (CSGrad4US) that will generously support 3 years of my PhD.</b> </p>
+
+          <p>My CV is available as a pdf <a href="assets/hrisheeshastri_CV.pdf">here</a>.</p>
+
                 </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>John Doe</b></div><br>
-                <p><b>john at doe.com</b><br>
-                <p>Random Department<br>
-                University of Randomness<br>
-                Street<br>
-                City <br>
-                Country<br>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Hrishee Shastri</b></div><br>
+                <p><b>HrisheeS (at) gmail (dot) com</b><br>
+                <p>Seattle, WA, USA<br>
                 </p>
             </div>
             
             
             <!-- Links on the Sidebar -->
             <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
+              <dd><a href="https://scholar.google.com/citations?user=0JSTI4kAAAAJ&hl=en">Google Scholar</a></dd> 
+              <dd><a href="https://linkedin.com/in/hrishees">LinkedIn</a></dd>
+              <dd><a href="https://github.com/shastrihm">Github</a></dd>
             </div>
             
             
             <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
+            <div class="col-md-8">    
+             <h2 id="publications">Publications</h2>
+
+                <strong>Peer-reviewed</strong> (&alpha; = alphabetical author order by last name)<br/>
                 <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
+                <li class="paper" words="add, your, keywords, here"><a href="assets/quantum.pdf"><b>Quantum Routing with Fast Reversals<sup>&alpha;</sup>.</a></b> [<a href="https://arxiv.org/abs/2103.03264">arXiv</a>] <br>
+                  Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov, Samuel King, Eddie Schoute, <b>Hrishee Shastri</b>. <a href="https://quantum-journal.org/papers/q-2021-08-31-533/">Quantum, 2021</a> (journal). <a href="https://pldi21.sigplan.org/details/planqc-2021-papers/3/Quantum-routing-with-fast-reversals">ACM PLDI PLanQC 2021</a> (talk and extended abstract). </li>
+                <li class="paper" words="add, your, keywords, here"><a href="assets/peerj.pdf"><b>An Analysis of the Locality of Binary Representations in Genetic and Evolutionary Algorithms</a></b> [<a href="https://arxiv.org/pdf/2007.12159">arXiv</a>] <br>
+                 <b>Hrishee Shastri</b> and Eitan Frachtenberg. PeerJ Computer Science, 2021. </li>
+                <li class="paper" words="add, your, keywords, here"><a href="assets/shastri20_bounds.pdf"><b>Locality Bounds for Nonredundant Binary-Integer Representations</a></b> <br>
+                 <b>Hrishee Shastri</b> and Eitan Frachtenberg. IEEE Symposium Series on Computational Intelligence (SSCI) 2020. </li>
                 </ul>
-            
-                <strong>Technical Reports</strong><br/>
+
+                <strong>Thesis</strong><br/>
                 <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
+                <li class="paper" words="add, your, keywords, here"><a href="assets/hrisheesthesis.pdf"><b>Cutting the Chord: Interleaved and Demand-aware Skip Graphs</a></b> <br>
+                 <b>Hrishee Shastri</b>. Reed College Undergraduate Thesis, 2021.</li>
                 </ul>
+            </div>
+
+            <div class="col-md-8">
+                <h2 id="misc">Misc.</h2>
+              <ul>
+              <li class="misc"><a href="assets/multiwaycut.pdf">Approximation Algorithms for Multiway Cut.</a> <br>Presentation slides for Topics in Computer Science Theory - Advanced Algorithms (CS 441) at Reed College.</li>
+
+              <li class="misc"> <a href="https://shastrihm.github.io/hagoromoitis/">Compartmental disease modeling of a made-up disease called "Hagaromoitis".</a> [<a href="https://github.com/shastrihm/hagoromoitis">Source code</a>] [<a href="https://github.com/shastrihm/hagoromoitis/blob/master/writeup.pdf">Report</a>]  <br> Final project for Ordinary Differential Equations (MATH 322) at Reed College. </li>
+
+              <li class="misc"> <a href="https://github.com/shastrihm/dropfind/">Dropfind: model and inference code for droplet detection.</a> </li>
+              </ul>
+
+
             </div>
 
             
